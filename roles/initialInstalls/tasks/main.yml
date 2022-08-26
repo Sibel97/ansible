@@ -11,5 +11,5 @@
     - python3
     - python-pip
     - git 
-  state: latest
-  update_cache: true 
+    state: latest
+    update_cache: true 
