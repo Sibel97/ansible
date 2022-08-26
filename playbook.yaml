@@ -1,0 +1,6 @@
+- hosts:
+  become: true
+  roles:
+  - initialInstalls
+  - pipInstalls
+  - copykey
