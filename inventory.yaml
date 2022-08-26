@@ -1,5 +1,5 @@
 all:
-  hosts: all
+  hosts:
    instance-1:
   vars:
   ansible_user: jenkins
