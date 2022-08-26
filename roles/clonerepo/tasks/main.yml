@@ -1,0 +1,6 @@
+---
+# tasks file for clonerepo
+- name: "Clone repo"
+  git: 
+    repo: https://github.com/Sibel97/trio-task-ex.git
+    dest: home/Sibel/Task2/ansible/trio
