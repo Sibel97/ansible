@@ -1,11 +1,11 @@
 ---
 # tasks file for initialInstalls
--name: "update apt packages"
- apt:
-  upgrade: yes
-  update_cache: yes
+- name: "update apt packages"
+  apt:
+    upgrade: yes
+    update_cache: yes
 
--name: "install git and python3 and python pip"
+- name: "install git and python3 and python pip"
   apt:
     name:
     - python3
