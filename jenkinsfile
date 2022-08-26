@@ -1,6 +1,6 @@
 pipeline{
     agent any 
-    stage{
+    stages{
         stage('Run Playbook'){
             steps{
                 sh 'ansible-playbook -i inventory.yaml playbook.yaml'
