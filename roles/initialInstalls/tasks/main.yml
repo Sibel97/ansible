@@ -5,7 +5,7 @@
     upgrade: yes
     update_cache: true
 
-- name: "install git and python3 and python pip"
+- name: "installations"
   apt:
     name:
     - python3
